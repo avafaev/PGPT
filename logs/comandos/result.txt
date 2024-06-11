@@ -1,5 +1,14 @@
-Command result: 'nmap -p- 3.3.3.3':
-Starting Nmap 7.95 ( https://nmap.org ) at 2024-06-11 12:11 Hora de verano romance
-Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
-Nmap done: 1 IP address (0 hosts up) scanned in 3.51 seconds
+Command result: 'nslookup mail.ru':
+Servidor:  UnKnown
+Address:  192.168.5.1
+
+Nombre:  mail.ru
+Addresses:  217.69.139.200
+	  94.100.180.201
+	  94.100.180.200
+	  217.69.139.202
+
+
+Error while executing the command: 'nslookup mail.ru':
+Respuesta no autoritativa:
 

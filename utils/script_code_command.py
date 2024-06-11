@@ -36,11 +36,11 @@ def save_results_to_file(command, results, filename):
 # Función para guardar los resultados en un archivo JSON.
 def save_results_to_json(command, result, filename):
     """Guarda los resultados en un archivo JSON."""
-    command_id = str(int(time.time()))
+    command_id = time.strftime("%Y%m%d-%H%M%S")
     command_entry = {
-        "comando_id": command_id,
-        "comando": command,
-        "resultado": result
+        "command_id": command_id,
+        "command": command,
+        "result": result
     }
 
     if os.path.exists(filename):

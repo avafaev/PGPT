@@ -1,0 +1,32 @@
+[
+    {
+        "comando_id": "1718106047",
+        "comando": "nmap -p- 3.3.3.3",
+        "resultado": "Command result: 'nmap -p- 3.3.3.3':\nStarting Nmap 7.95 ( https://nmap.org ) at 2024-06-11 13:40 Hora de verano romance\r\nNote: Host seems down. If it is really up, but blocking our ping probes, try -Pn\r\nNmap done: 1 IP address (0 hosts up) scanned in 3.37 seconds\r\n\n"
+    },
+    {
+        "comando_id": "1718106126",
+        "comando": "nmap -p- 3.3.3.3",
+        "resultado": "Command result: 'nmap -p- 3.3.3.3':\nStarting Nmap 7.95 ( https://nmap.org ) at 2024-06-11 13:42 Hora de verano romance\r\nNote: Host seems down. If it is really up, but blocking our ping probes, try -Pn\r\nNmap done: 1 IP address (0 hosts up) scanned in 3.29 seconds\r\n\n"
+    },
+    {
+        "comando_id": "1718106140",
+        "comando": "nslookup telefonica.es",
+        "resultado": "Command result: 'nslookup telefonica.es':\nServidor:  UnKnown\r\nAddress:  192.168.5.1\r\n\r\nNombre:  telefonica.es\r\nAddresses:  141.101.90.97\r\n\t  141.101.90.96\r\n\t  141.101.90.99\r\n\t  141.101.90.98\r\n\r\n\nError while executing the command: 'nslookup telefonica.es':\nRespuesta no autoritativa:\r\r\n\n"
+    },
+    {
+        "comando_id": "1718106154",
+        "comando": "nslookup google.es",
+        "resultado": "Command result: 'nslookup google.es':\nDNS request timed out.\r\n    timeout was 2 seconds.\r\nServidor:  UnKnown\r\nAddress:  192.168.5.1\r\n\r\nDNS request timed out.\r\n    timeout was 2 seconds.\r\nNombre:  google.es\r\nAddress:  142.250.201.67\r\n\r\n\nError while executing the command: 'nslookup google.es':\nRespuesta no autoritativa:\r\r\n\n"
+    },
+    {
+        "comando_id": "20240611-134558",
+        "comando": "nmap -p- 3.3.2.2",
+        "resultado": "Command result: 'nmap -p- 3.3.2.2':\nStarting Nmap 7.95 ( https://nmap.org ) at 2024-06-11 13:45 Hora de verano romance\r\nNote: Host seems down. If it is really up, but blocking our ping probes, try -Pn\r\nNmap done: 1 IP address (0 hosts up) scanned in 3.27 seconds\r\n\n"
+    },
+    {
+        "comando_id": "20240611-134738",
+        "comando": "nslookup mail.ru",
+        "resultado": "Command result: 'nslookup mail.ru':\nServidor:  UnKnown\r\nAddress:  192.168.5.1\r\n\r\nNombre:  mail.ru\r\nAddresses:  217.69.139.200\r\n\t  94.100.180.201\r\n\t  94.100.180.200\r\n\t  217.69.139.202\r\n\r\n\nError while executing the command: 'nslookup mail.ru':\nRespuesta no autoritativa:\r\r\n\n"
+    }
+]

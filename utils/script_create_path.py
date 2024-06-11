@@ -21,18 +21,18 @@ import json
 def create_new_command_log():
     """Crea un nuevo archivo de registro de comandos en la carpeta ./logs/comandos/."""
     timestamp = time.strftime("%Y%m%d-%H%M%S")
-    # directory = './logs/comandos/'
-    # if not os.path.exists(directory):
-    #     os.makedirs(directory)
+    directory = './logs/comandos/'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     filename = f"command_log_{timestamp}.json"
-    #filepath = os.path.join(directory, filename)
-    filepath = os.path.join(filename)
+    filepath = os.path.join(directory, filename)
+    # filepath = os.path.join(filename)
     with open(filepath, "w") as file:
         json.dump([], file, indent=4)
-    return filepath
+    return filename
  
 def list_recent_command_logs(n=5):
-    directory = "./logs/"
+    directory = "./logs/comandos"
     if not os.path.exists(directory):
         return []
  
