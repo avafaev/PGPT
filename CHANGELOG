@@ -1,0 +1,38 @@
+< ----------------------------------------------------------- >
+[1.0.0] - 19/05/2024 
+
+Base version 
+
+ 
+< ----------------------------------------------------------- >
+[1.0.1] - 27/06/2024 
+
+* Added * 
+- Command execution history read 
+- Last executed command read 
+- History recovery for new session 
+- Internal terminal for command execution 
+- Execute commands from GPT suggestions 
+
+* Changed *
+- Internal target IP management 
+
+* Fixed *
+- Error management 
+
+ 
+< ----------------------------------------------------------- >
+[1.1.0] - 01/10/2024 
+
+* Added *
+- Report Generation
+
+* Changed *
+- Prompts format refactorization
+- Session recovery
+- Updated pyproject.toml and requirements.txt with the newly added libraries
+
+* Fixed *
+- Display of current TO-TO tree 
+- File cleaning
+- Error management

@@ -117,3 +117,6 @@ win32-setctime==1.1.0 ; python_version >= "3.10" and python_version < "4.0" and 
 wrapt==1.14.0 ; python_version >= "3.10" and python_version < "4.0"
 yarl==1.9.4 ; python_version >= "3.10" and python_version < "4.0"
 zipp==3.18.1 ; python_version >= "3.10" and python_version < "4.0"
+docx==0.2.4 ; python_version >= "3.10" and python_version < "4.0"
+docx2pdf==0.1.8 ; python_version >= "3.10" and python_version < "4.0"
+python-docx==1.1.2 ; python_version >= "3.10" and python_version < "4.0"

@@ -1,14 +1,0 @@
-Command result: 'nslookup mail.ru':
-Servidor:  UnKnown
-Address:  192.168.5.1
-
-Nombre:  mail.ru
-Addresses:  217.69.139.200
-	  94.100.180.201
-	  94.100.180.200
-	  217.69.139.202
-
-
-Error while executing the command: 'nslookup mail.ru':
-Respuesta no autoritativa:
-
