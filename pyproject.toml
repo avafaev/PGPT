@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sspentestlab"
-version = "0.14.0"
+version = "0.15.0"
 description = "SSPentestLab is an LLM-powered penetration testing tool."
 authors = ["Ali Vafaev <ali.vafaev@soprasteria.com>", "Tomas Bastante <tomas.bastante@soprasteria.com>"]
 license = "MIT"
@@ -31,7 +31,7 @@ docx = "0.2.4"
 docx2pdf = "0.1.8"
 python-docx = "1.1.2"
 
-langhchain = "0.3.7"
+langchain = "0.3.7"
 llama_index = "0.12.1"
 langchain_ollama = "0.2.0"
 # llama_index.embeddings.ollama = "0.4.0"
@@ -44,7 +44,6 @@ pydantic_core = "2.23.4"
 pydantic-settings = "2.6.1"
 
 langchain-core = "0.3.17"
-langchain = "0.3.7"
 langchain-community = "0.3.7"
 openai = "1.51.0"
 llama_cpp_python = "0.3.1"
