@@ -23,6 +23,7 @@ pycookiecheat = "^0.6.0"
 tenacity = "^8.2.3"
 gpt4all = "^2.3.0"
 pinecone-client = "^3.2.0"
+langfuse = "1.9.2"
 newspaper3k = "^0.2.8"
 google-generativeai= "^0.5.2" 
 toml = "^0.10.2"
@@ -42,14 +43,10 @@ pydantic = "2.9.2"
 pydantic_core = "2.23.4"
 pydantic-settings = "2.6.1"
 
-# langchain-core = "0.3.17"
-# --------
-langfuse = "^1.9.2"
-langchain-core = "0.3.7"
+langchain-core = "0.3.17"
 langchain-community = "0.3.7"
-# --------
 openai = "1.51.0"
-ollama = "^0.3.0"
+ollama = "0.3.3"
 llama_cpp_python = "0.3.1"
 
 [tool.poetry.scripts]
