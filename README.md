@@ -44,6 +44,21 @@ You can use custom GPT models. Check out: `SSPentestLab/utils/APIs/gpt4all_api.p
 
 ## 📝 Installation
 
+### System Requirments
+
+- _OS:_ 64-bit Windows 10 or above
+- _Memory:_
+- - Minimum: 16GB DDR4
+- - Recommended: 32GB DDR4 or above
+- _Storage:_ 32GB of free space
+- Visual Studio 2022 for C++
+
+Building for Windows (x86, x64 and arm64) with MSVC:
+
+- Install Visual Studio 2022, e.g. via the [Community Edition](https://visualstudio.microsoft.com/en/vs/community/). In the installer, select at least the following options (this also automatically installs the required additional tools like CMake,...):
+- Tab Workload: Desktop-development with C++
+- Tab Components (select quickly via search): C++-CMake Tools for Windows, Git for Windows, C++-Clang Compiler for Windows, MS-Build Support for LLVM-Toolset (clang)
+
 ### Installation via GIT with pip
 
 1. Create a virtual environment if necessary:
